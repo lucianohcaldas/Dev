@@ -1,0 +1,22 @@
+<h2>Detalhes do Colaborador</h2> 
+
+<hr/>
+<div *ngIf="colaborador">
+  <div>
+    <label><b>Nome: </b></label> {{colaborador.firstName}}
+  </div>
+  <div>
+    <label><b>Sobrenome: </b></label> {{colaborador.lastName}}
+  </div>
+  <div>
+    <label><b>Idade: </b></label> {{colaborador.idade}}
+  </div>
+
+  <div>
+    <label><b>E-mail </b></label> {{colaborador.email}}
+  </div>  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Voltar</button><br>

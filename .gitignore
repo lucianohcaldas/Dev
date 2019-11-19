@@ -1,0 +1,38 @@
+
+*.log
+.metadata/.lock
+.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixData/22/GPUCache/data_0
+.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixData/22/GPUCache/data_1
+.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixData/22/GPUCache/data_2
+.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixData/22/GPUCache/data_3
+.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixData/22/GPUCache/index
+.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixData/22/Local Storage/leveldb/LOCK
+.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixData/22/Local Storage/leveldb/LOG
+.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixData/22/Local Storage/leveldb/MANIFEST-000001
+.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixData/22/User/globalStorage/state.vscdb
+.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixData/22/User/workspaceStorage/922638a4679e8e927ab0869e6149a1ce/state.vscdb
+.metadata/.plugins/com.genuitec.eclipse.code.monitor/codemix-usage.properties
+.metadata/.plugins/org.eclipse.core.resources/.projects/EmbraconTesteAngular/.markers.snap
+.metadata/.plugins/org.eclipse.core.resources/.projects/EmbraconTesteAngular/.syncinfo.snap
+.metadata/.plugins/org.eclipse.core.resources/.projects/EmbraconTesteSpring/.markers.snap
+.metadata/.plugins/org.eclipse.core.resources/.projects/EmbraconTesteSpring/.syncinfo.snap
+.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap
+.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.syncinfo.snap
+.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+.metadata/.plugins/org.eclipse.core.resources/18.snap
+.metadata/.plugins/org.eclipse.dltk.core/Containers.dat
+.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+.metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser
+.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps
+.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat
+.metadata/.plugins/org.jboss.tools.usage/events/central-browser-IE+_11
+.metadata/.plugins/org.jboss.tools.usage/events/central-showOnStartup-false
+.metadata/.plugins/org.jboss.tools.usage/events/central-showOnStartup-true
+.metadata/.plugins/org.jboss.tools.usage/events/e2cdcb51-249b-3bcb-9a8b-9ffde52ea126
+.metadata/.plugins/org.jboss.tools.usage/events/e355d1df-997c-381b-b7f7-55b942a1d1f7
+.metadata/codemix.code-workspace
+.metadata/com.genuitec.eclipse.webclipse.livepreview/version.txt
+.metadata/version.ini

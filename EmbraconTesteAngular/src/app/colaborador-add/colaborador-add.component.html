@@ -1,0 +1,30 @@
+<h3>Colaborador</h3>
+<div [hidden]="submitted" style="width: 700px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">Nome</label>
+      <input type="text" width="600px" class="form-control" id="firstName" required [(ngModel)]="colaborador.firstName" name="firstName">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Sobrenome</label>
+      <input type="text" class="form-control" id="lastName" required [(ngModel)]="colaborador.lastName" name="lastName">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Idade</label>
+      <input type="number" min="0" class="form-control" id="idade" required [(ngModel)]="colaborador.idade" name="idade">
+    </div>
+
+ <div class="form-group">
+      <label for="name">E-mail</label>
+      <input type="text" class="form-control" id="email" required [(ngModel)]="colaborador.email" name="email">
+    </div>
+
+    <button type="submit" class="btn btn-success">Salvar</button>
+  </form>
+</div>
+
+<div [hidden]="!submitted">
+  <h4>Salvo com sucesso!</h4>
+</div>

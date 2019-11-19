@@ -1,0 +1,29 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+      <h2>Lista de Colaboradores</h2>
+    </div>
+    <div class="panel-body">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Idade</th>
+            <th>E-mail</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let colaborador of colaborador | async">
+            <td>{{colaborador.firstName}}</td>
+            <td>{{colaborador.lastName}}</td>
+            <td>{{colaborador.idade}}</td>
+            <td>{{colaborador.email}}</td>
+            <td><button (click)="colaboradorDelete(colaborador.id)" class="btn btn-danger">Apagar</button>
+                <button (click)="colaboradorDetail(colaborador.id)" class="btn btn-info" style="margin-left: 10px">Detalhes</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>

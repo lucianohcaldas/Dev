@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 70px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+table 
+{
+    width: 100%;
+    font: 17px Calibri;
+    background-color:  #c1c1c1;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+table, th, td 
+{
+    border-bottom: solid 1px #DDD;
+    border-collapse: collapse;
+    padding: 8px 5px;
+    text-align: center;
+}
+
+h1 {
+    font-family: abeatbyKai;
+    font-size: 30px;
+    font-weight: normal;
+}
